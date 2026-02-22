@@ -1,0 +1,12 @@
+@CountryGwp_Api_HostAddress = http://localhost:9091
+
+POST {{CountryGwp_Api_HostAddress}}/server/api/gwp/avg
+Accept: application/json
+Content-Type: application/json
+
+{
+	"country": "ae",
+	"lob": ["property", "transport"]
+}
+
+###
