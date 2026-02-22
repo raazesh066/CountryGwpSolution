@@ -4,5 +4,5 @@ public sealed class CountryGwpDataOptions
 {
     public const string SectionName = "Data";
 
-    public string CsvPath { get; init; } = @"C:\Users\rajeshyadav\Downloads\gwpByCountry (2).csv";
+    public string CsvPath { get; init; } = string.Empty;
 }
